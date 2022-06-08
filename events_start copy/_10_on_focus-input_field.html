@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function changeBackgroundColor(element) {
+        const field = document.querySelector('#theText')
+        field.style.BackgroundColor = "Yellow"
+
+    }
+  </script>
+</head>
+
+<body>
+
+  <h2>JavaScript HTML Events - on focus</h2>
+<!-- TODO Use onfocus event to call the changeBackgroundColor(element) function-->
+  Enter your name: <input type="text" id="theText" onfocus="changeBackgroundColor()">
+
+  <p>When the input field gets focus, the background-color changes</p>
+</body>
+
+</html>
